@@ -84,3 +84,7 @@ func NewReflector(lw ListerWatcher, expectedType interface{}, store Store, resyn
 _class: lead
 -->
 ### 谢谢
+---
+
+注意client-go实际是对http api的封装，比如resourceVersion、limit之类的
+详细api文档: https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.23/#pod-v1-core
